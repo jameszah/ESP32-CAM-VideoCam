@@ -3,22 +3,7 @@
 ## https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
 
 <a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">Source Github</a>
-    
-Click here [https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html]  to install a video recorder on on ESP32-CAM module.  
-<hl>
-Click Connect to connect to ESP32-CAM and view console or download firmware.    
-<br>
-<script  type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
-<esp-web-install-button manifest="manifest.json"></esp-web-install-button>
-<br><br>    
-Here is a link to the config.txt file you should save onto your sd card with your ssid and password.
-<br>    
-<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
-<hl>
 
-
-<a href="https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html">Flash</a>
-    
 You must have the ESP tools installed, or just the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
     
 You also have to put your ESP32-CAM into programming mode (ground GPIO0 then power it on), and you must not have the Arduino Serial Monitor attached to the COM port.
@@ -28,3 +13,18 @@ You after have programmed the ESP32-CAM, you should get the config.tx file from 
 [https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt]  
 
 <a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
+
+
+<br>
+<br>
+Click Connect to connect to ESP32-CAM and view console or download firmware.    
+<br>
+<script  type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
+<esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+<br><br>    
+Here is a link to the config.txt file you should save onto your sd card with your ssid and password.
+<br>    
+<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
+<br>
+<br>
+
