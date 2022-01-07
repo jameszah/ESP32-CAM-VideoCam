@@ -4,7 +4,7 @@ desklens  // camera name for files, mdns, etc
 13  // frame config - must be equal or higher than framesize
 5  / quality config - high q 0..5, med q 6..10, low q 11+
 3  // buffers - 1 is half speed of 3
-60  // length of video in seconds - 1 minute
+600  // length of video in seconds - 1 minute
 0  // interval - ms between frames - 0 for fastest, or 500 for 2fps, 10000 for 10 sec/frame
 1  // speedup - multiply framerate - 1 for realtime, 24 for record at 1fps, play at 24fps or 24x
 100  // streamdelay - ms between streaming frames - 0 for fast as possible, 500 for 2fps 
