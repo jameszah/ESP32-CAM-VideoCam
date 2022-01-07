@@ -2,6 +2,8 @@
 
 <a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior</a>
 
+<a href="https://jameszah.github.io/ESP32-CAM-VideoCam/">https://jameszah.github.io/ESP32-CAM-VideoCam/</a>
+
 You must have the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
     
 You also have to put your ESP32-CAM into programming mode (ground GPIO0 then power it on), and you must NOT have the Arduino Serial Monitor attached to the COM port.
