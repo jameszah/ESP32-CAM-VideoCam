@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jameszah/ESP32-CAM-VideoCam/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jameszah/ESP32-CAM-VideoCam/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Click here {https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html]  to install a video recorder on on ESP32-CAM module.
+    
+You must have the ESP tools installed, or just the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
+    
+You also have to put your ESP32-CAM into programming mode (ground GPIO0 then power it on), and you must not have the Arduino Serial Monitor attached to the COM port.
+    
+You after have programmed the ESP32-CAM, you should get the config.tx file from here, open it with a text editor, and type in your ssid name and password, and then put that file onto an SD card and put it in the ESP32-CAM.  Then when you boot the ESP32-CAM it will connect to your network, and you can click its ip to do streaming, take a series of still pictures, download the movies you have recorded to your browser/computer, and edit the config.txt file to different framesizes, timelapses etc.
+   
