@@ -1,7 +1,11 @@
 
 ## https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
 
-Click here [https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html]  to install a video recorder on on ESP32-CAM module.
+<a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior"></a>
+    
+Click here [https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html]  to install a video recorder on on ESP32-CAM module.  
+    
+    <a href="https://jameszah.github.io/ESP32-CAM-VideoCam/flash.html"></a>
     
 You must have the ESP tools installed, or just the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
     
