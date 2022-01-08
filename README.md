@@ -1,8 +1,12 @@
 ## ESP32-CAM-VideoCam
 
-<a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior</a>
+If you are reading this on github.com, click here to read it on github.io
 
 <a href="https://jameszah.github.io/ESP32-CAM-VideoCam/">https://jameszah.github.io/ESP32-CAM-VideoCam/</a>
+
+<a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior</a>
+
+
 
 You must have the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
     
