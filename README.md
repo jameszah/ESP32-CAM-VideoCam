@@ -6,7 +6,7 @@ If you are reading this on github.com, click here to read it on github.io
 
 <a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior</a>
 
-New version installed Jan 12, 2022 - see "junior" above for details.  It uses a different config.txt file than the previous version, but it will create a new config.tx file, and you can edit in your ssid and password, and then make extra edit through the esp32 file manager while it is running.
+New version installed Jan 12, 2022 - see "junior" above for details.  It uses a different config.txt file than the previous version, but it will create a new config.tx file, and you can edit in your ssid and password, and then make extra edit through the esp32 file manager while it is running ... or just copy and edit the config.txt below and put it on your sd card.
 
 You must have the Arduino IDE with the ESP32 boards library installed (giving you the ESP tools).
     
