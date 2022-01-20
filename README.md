@@ -23,11 +23,11 @@ Click Connect to connect to ESP32-CAM and view console or send the firmware.
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
 
 <br>    
-<br>
 
 <br>
-Here is a link to the **config.txt** file you should save onto your sd card with your ssid and password.
-<br>    
+Here is a link to the **config.txt** file you should save onto your sd card with your ssid and password.  The link below has comments to describe the fields in greater detail, or cut-and-paste this little window for the basics.
+<br>   
+<br>
 <a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
 <br>
 <br>
