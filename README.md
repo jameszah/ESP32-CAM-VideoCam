@@ -17,7 +17,7 @@ After you have programmed the ESP32-CAM, you should get the config.txt file from
 
 <br>
 <br>
-Click Connect to connect to ESP32-CAM and view console or send the firmware.    
+Click Connect to connect to ESP32-CAM and view console or send the firmware -- make sure Arduino serial monitor is closed!    
 <br>
 <script  type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
