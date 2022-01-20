@@ -21,7 +21,23 @@ Click Connect to connect to ESP32-CAM and view console or send the firmware.
 <br>
 <script  type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+
 <br>    
+<br>
+
+```
+desklens  // camera name
+11  // framesize  11=hd
+1800  // length of video in seconds
+0  // interval - ms between recording frames 
+1  // speedup - multiply framerate 
+0  // streamdelay - ms between streaming frames
+GMT // timezone
+ssid1234  // ssid wifi name
+mrpeanut  // ssid password
+```
+
+<br>
 Here is a link to the config.txt file you should save onto your sd card with your ssid and password.
 <br>    
 <a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
