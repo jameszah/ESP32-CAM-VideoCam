@@ -1,6 +1,6 @@
 ## ESP32-CAM-VideoCam
 
-If you are reading this on github.com, click here to read it on github.io
+If you are reading this on github.com, click here to read it on github.io -- the download controls only work on github.io
 
 <a href="https://jameszah.github.io/ESP32-CAM-VideoCam/">https://jameszah.github.io/ESP32-CAM-VideoCam/</a>
 
