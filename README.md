@@ -25,6 +25,13 @@ Click Connect to connect to ESP32-CAM and view console or send the firmware.
 <br>    
 <br>
 
+<br>
+Here is a link to the **config.txt** file you should save onto your sd card with your ssid and password.
+<br>    
+<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
+<br>
+<br>
+
 ```
 desklens  // camera name
 11  // framesize  11=hd
@@ -37,10 +44,5 @@ ssid1234  // ssid wifi name
 mrpeanut  // ssid password
 ```
 
-<br>
-Here is a link to the config.txt file you should save onto your sd card with your ssid and password.
-<br>    
-<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/config.txt">config.txt</a>
-<br>
-<br>
+
 
