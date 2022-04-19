@@ -18,7 +18,9 @@ Photo of wiring
  
 <img src="./doc/Screenshot 2022-04-19 121621.jpg">
 
-### If you see this, we cannot see your ESP32 on a com port
+### If this box is empty, we cannot see your ESP32 on a com port
+
+Make sure the com port is free -- not connected to arduino console for example
 
 <img src="./doc/Screenshot 2022-04-19 121727.jpg"> 
 
@@ -189,10 +191,9 @@ The file will land in your default download directory -- here it is one my Windo
 
 ### and select Convert
 
-<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
 ### Choose a computer file name to record the video stream
-
 
 <img src="./doc/Screenshot 2022-04-19 125849.jpg"> 
 
