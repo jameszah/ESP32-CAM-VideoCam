@@ -205,7 +205,7 @@ The recording will be a mjpeg file, which has no sense of time, it just plays th
 
 ### hit the square stop button to stop streaming, and stream record
 
-<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125831.jpg"> 
 
 ### When video is done, you see some stats on the console, and in the log file
 
