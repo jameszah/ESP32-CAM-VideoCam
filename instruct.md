@@ -68,7 +68,78 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123313.jpg"> 
 
+### Accidently unplug the +5 volt wire
 
-<img src="./doc/Screenshot 2022-04-19 121727.jpg"> 
-<img src="./doc/Screenshot 2022-04-19 121727.jpg"> 
+1.  You will see this on the console.
+2.  This console only seems to update with a blank line
+3.  You will see a line every 100 frames to show you progress with some nice stats
+4.  And another line on an individual frame with more stats
+
+<img src="./doc/Screenshot 2022-04-19 123428.jpg"> 
+
+### Edit in your SSID and Password
+
+1.  Since we screwed up the first recording, use this opportunity to pull out the sd, put it in your computer, and edit the config.txt on the sd card
+2.  These are the files for the first session - the config.txt, the one movie, and the log file for the session.
+3.  They have no dates because with no wifi, we do not know the date
+4.  You can also add your timezone, and parameters or recording to realtime, timepalse, streaming speed, etc as described in config.txt file
+5.  Make sure there are 2 spaces after the number or text, and before the // comment
+
+<img src="./doc/Screenshot 2022-04-19 123308.jpg">
+
+<img src="./doc/Screenshot 2022-04-19 123256.jpg"> 
+
+### Now put the sd back in ESP32 and starts Logs and Console, and power up
+
+1.  You will see these 3 screens 
+2. Reboot message
+3. You now have Eprom, so goto next session #2
+4. Mound sd card, and get your new config and display
+
+<img src="./doc/Screenshot 2022-04-19 123839.jpg"> 
+
+1.  Create a new log file for session #2
+2.  Connect to wifi - print out the names to make sure they are correct
+3.  Get the date and time
+4.  Print the ip address
+5.  Regisiter your name "desklens" with your router
+6.  Set up camera
+
+
+<img src="./doc/Screenshot 2022-04-19 123846.jpg"> 
+
+1.  Start recording desklens2.001.avi
+
+<img src="./doc/Screenshot 2022-04-19 123852.jpg"> 
+
+###  Now look at Router to see your ESP32-CAM
+
+This is how it looks on mine
+
+<img src="./doc/Screenshot 2022-04-19 124039.jpg"> 
+
+### Go to a browser on computer or phone and enter the name or ip of ESP32-CAM
+
+<img src="./doc/Screenshot 2022-04-19 124045.jpg"> 
+
+### And you get some stats
+
+<img src="./doc/Screenshot 2022-04-19 124051.jpg"> 
+
+### If you use Windows Chrome, you might get this ... Switch to Windows Edge
+
+<img src="./doc/Screenshot 2022-04-19 123256.jpg"> 
+
+### You can click the IP to update the stats, and you get his on console 
+
+The http index line ... use this to force console to update
+
+### Try the Streaming on browser, and stats on console
+
+<img src="./doc/Screenshot 2022-04-19 124647.jpg"> 
+
+<img src="./doc/Screenshot 2022-04-19 124635.jpg"> 
+
+<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+
 
