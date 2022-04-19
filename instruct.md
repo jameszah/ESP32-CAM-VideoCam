@@ -128,18 +128,95 @@ This is how it looks on mine
 
 ### If you use Windows Chrome, you might get this ... Switch to Windows Edge
 
-<img src="./doc/Screenshot 2022-04-19 123256.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125118.jpg"> 
 
 ### You can click the IP to update the stats, and you get his on console 
 
 The http index line ... use this to force console to update
 
+<img src="./doc/Screenshot 2022-04-19 124647.jpg"> 
+
 ### Try the Streaming on browser, and stats on console
 
-<img src="./doc/Screenshot 2022-04-19 124647.jpg"> 
+1.  You get cosole messages when streaming begins and ends. 
+2.  The console shows it is recording at 12.5 fps (the camera max), but streaming fluxuates a little from 15 down to about 12.
 
 <img src="./doc/Screenshot 2022-04-19 124635.jpg"> 
 
 <img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
 
+### Try the 10 photos at intervals - you can save these with your browser
+
+<img src="./doc/Screenshot 2022-04-19 125104.jpg"> 
+
+### Try the File Manager
+
+These are your files from session #1 and #2 ... with dates
+
+<img src="./doc/Screenshot 2022-04-19 125031.jpg"> 
+
+### Click the filename to download it to your browser computer
+
+Paragraph about download speed.
+The file will land in your default download directory -- here it is one my Windows computer
+
+<img src="./doc/Screenshot 2022-04-19 125037.jpg"> 
+
+<img src="./doc/Screenshot 2022-04-19 132302.jpg"> 
+
+### Click the "E" beseide config.txt to edit the config file
+
+<img src="./doc/Screenshot 2022-04-19 125049_LI.jpg.jpg"> 
+
+### Start vlc on computer, Open a Network Stream
+
+<img src="./doc/Screenshot 2022-04-19 125901"> 
+
+### Enter the url from the Stream link on website
+
+<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+
+
+<img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
+
+### and select Convert
+
+<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+
+### Choose a computer file name to record the video stream
+
+
+<img src="./doc/Screenshot 2022-04-19 125849.jpg"> 
+
+### and it starts recording
+
+The recording will be a mjpeg file, which has no sense of time, it just plays the stream as fast as it can.
+
+<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+
+### hit the square stop button to stop streaming, and stream record
+
+<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+
+### When video is done, you see some stats on the console, and in the log file
+
+<img src="./doc/Screenshot 2022-04-19 130740.jpg"> 
+
+### Now unplug everything, and put sd card in computer, and here are the movies
+
+<img src="./doc/Screenshot 2022-04-19 131032.jpg"> 
+
+### And movie that does not end gracefully will not have an index, so vlc will show this, and it will not play at correct speed or length
+
+<img src="./doc/Screenshot 2022-04-19 132316.jpg"> 
+
+Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - the movie has no index
+
+<img src="./doc/Screenshot 2022-04-19 132247.jpg"> 
+
+### The sd recorded movie, looks like the stream and computer recorded movie
+
+<img src="./doc/Screenshot 2022-04-19 131254.jpg"> 
+
+<img src="./doc/Screenshot 2022-04-19 131210.jpg"> 
 
