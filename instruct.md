@@ -1,10 +1,19 @@
 
-#### Goto the github.io websire ... not github.com
+### Goto the github.io websire ... not github.com
 
 <img src="./doc/Screenshot 2022-04-19 121554.jpg">
 
 ###  Wire up the ESP32-CAM Correctly
 
+FTDI - ESP32   
+Gnd  - Gnd   
+TX   - RX   
+RX   - TX   
++5   - +5   
+
+When programming, jumper gpio0 to gnd (next pin)
+
+Photo of wiring
 ### Click the Connect button
  
 <img src="./doc/Screenshot 2022-04-19 121621.jpg">
@@ -219,4 +228,11 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 <img src="./doc/Screenshot 2022-04-19 131254.jpg"> 
 
 <img src="./doc/Screenshot 2022-04-19 131210.jpg"> 
+
+### Questions, Comments, Like and Subscribe ...
+
+### Are you still reading this?
+
+https://ko-fi.com/jameszah
+
 
