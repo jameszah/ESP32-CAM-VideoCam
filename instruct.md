@@ -175,16 +175,15 @@ The file will land in your default download directory -- here it is one my Windo
 
 ### Click the "E" beseide config.txt to edit the config file
 
-<img src="./doc/Screenshot 2022-04-19 125049_LI.jpg.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125111.jpg"> 
+
+<img src="./doc/Screenshot 2022-04-19 125049_LI.jpg"> 
 
 ### Start vlc on computer, Open a Network Stream
 
-<img src="./doc/Screenshot 2022-04-19 125901"> 
+<img src="./doc/Screenshot 2022-04-19 125901.jpg"> 
 
 ### Enter the url from the Stream link on website
-
-<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
-
 
 <img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
