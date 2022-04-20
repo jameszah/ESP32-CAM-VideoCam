@@ -203,13 +203,13 @@ The file will land in your default download directory -- here it is one my Windo
 
 The recording will be a mjpeg file, which has no sense of time, it just plays the stream as fast as it can.
 
-<img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125844.jpg"> 
 
 ## hit the square stop button to stop streaming, and stream record
 
 <img src="./doc/Screenshot 2022-04-19 125831.jpg"> 
 
-## When video is done, you see some stats on the console, and in the log file
+## When the sd video recording is done, you see some stats on the console, and in the log file
 
 <img src="./doc/Screenshot 2022-04-19 130740.jpg"> 
 
