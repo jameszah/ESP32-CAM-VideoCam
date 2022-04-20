@@ -181,7 +181,7 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-19 125111.jpg"> 
 
-<img src="./doc/Screenshot 2022-04-19 125049_LI.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125049.jpg"> 
 
 ## Start vlc on computer, Open a Network Stream
 
