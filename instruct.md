@@ -1,7 +1,7 @@
 ##  Lengthy Instructions to Install and Operate ESP32-CAM-VideoCam
 
 This project is a compiled version of this sorce code
-https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
+<https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior>
 
 It can be run with or without wifi, with just a +5 and GND powering the ESP32.
 
@@ -24,7 +24,7 @@ RX   - UOT
 When programming, jumper gpio0 to gnd (next pin)
 
 Nice grapics from Dronebot 
-https://dronebotworkshop.com/esp32-cam-microsd/
+<https://dronebotworkshop.com/esp32-cam-microsd/>
 
 <img src="https://i0.wp.com/dronebotworkshop.com/wp-content/uploads/2022/04/esp32-cam-ftdi.jpg">
 
@@ -279,18 +279,18 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 
 ## Other Programs in the ESP32-CAM-Video Recorder Family
 
-https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior   
+<https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior>   
 - the source code for this program
 
 Here is the fancy version of the hardware
 
 <img src="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/blob/master/v09_schematic.jpg">
 
-https://github.com/jameszah/ESP32-CAM-Video-Recorder    
+<https://github.com/jameszah/ESP32-CAM-Video-Recorder>    
 - older version, that will send photos and links to telegram.org at the end of every movie, and let you download that movie.
 - has some PIR controls as well
 
-https://github.com/jameszah/ESP32-CAM-Video-Telegram
+<https://github.com/jameszah/ESP32-CAM-Video-Telegram>
 - this will record photos or realtime/timelapse movies in memory and send the photo or movie to a telegram.org bot.
 - you can use your telegram app on phone or copmputer to request a photo/movie, or have it triggered by a pir or radar module.
 - No sd card required for this app, all the output is sent to telegram
