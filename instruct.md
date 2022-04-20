@@ -1,11 +1,11 @@
 ##  Lengthy Instructions to Install and Operate ESP32-CAM-VideoCam
 
 
-### Goto the github.io website ... not github.com
+## Goto the github.io website ... not github.com
 
 <img src="./doc/Screenshot 2022-04-19 121554.jpg">
 
-###  Wire up the ESP32-CAM Correctly
+##  Wire up the ESP32-CAM Correctly
 
 FTDI - ESP32   
 Gnd  - Gnd   
@@ -16,33 +16,33 @@ RX   - TX
 When programming, jumper gpio0 to gnd (next pin)
 
 Photo of wiring
-### Click the Connect button
+## Click the Connect button
  
 <img src="./doc/Screenshot 2022-04-19 121621.jpg">
 
-### If this box is empty, we cannot see your ESP32 on a com port
+## If this box is empty, we cannot see your ESP32 on a com port
 
 Make sure the com port is free -- not connected to arduino console for example
 
 <img src="./doc/Screenshot 2022-04-19 121727.jpg"> 
 
-### Click on the Correct Com port for your ESP32-CAM, and click Connect
+## Click on the Correct Com port for your ESP32-CAM, and click Connect
 
 <img src="./doc/Screenshot 2022-04-19 121754.jpg"> 
 
-### You should see this, then hit Logs and Console 
+## You should see this, then hit Logs and Console 
 
 <img src="./doc/Screenshot 2022-04-19 121815.jpg"> 
 
-### You will get this black box, now power on the ESP32, and you get this Ready to Program line
+## You will get this black box, now power on the ESP32, and you get this Ready to Program line
 
 There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 122153.jpg"> 
 
-### Hit the Back Button in lower right of Black Box, and click Install ESP32-CAM-Wideo-Recorder
+## Hit the Back Button in lower right of Black Box, and click Install ESP32-CAM-Wideo-Recorder
 
-### And hit Install at this prompt - your ESP32 will be erased and installed
+## And hit Install at this prompt - your ESP32 will be erased and installed
 
 <img src="./doc/Screenshot 2022-04-19 122347.jpg"> 
 
@@ -55,7 +55,7 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 122402.jpg"> 
 
-### Next, power off ESP32, remove the Gpio0 jumper, restart the Logs and Console, then power it on
+## Next, power off ESP32, remove the Gpio0 jumper, restart the Logs and Console, then power it on
 
 1.  The first 6 lines are the standard boot message.
 2.  The Program starts
@@ -65,7 +65,7 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123318.jpg"> 
 
-### Slide down the the mouse scroll wheel
+## Slide down the the mouse scroll wheel
 
 1.  More prarmeters
 2.  The ssid1234 is the code for no-wifi
@@ -81,7 +81,7 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123313.jpg"> 
 
-### Accidently unplug the +5 volt wire
+## Accidently unplug the +5 volt wire
 
 1.  You will see this on the console.
 2.  This console only seems to update with a blank line
@@ -90,7 +90,7 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123428.jpg"> 
 
-### Edit in your SSID and Password
+## Edit in your SSID and Password
 
 1.  Since we screwed up the first recording, use this opportunity to pull out the sd, put it in your computer, and edit the config.txt on the sd card
 2.  These are the files for the first session - the config.txt, the one movie, and the log file for the session.
@@ -102,7 +102,7 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123256.jpg"> 
 
-### Now put the sd back in ESP32 and starts Logs and Console, and power up
+## Now put the sd back in ESP32 and starts Logs and Console, and power up
 
 1.  You will see these 3 screens 
 2. Reboot message
@@ -125,13 +125,13 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123852.jpg"> 
 
-###  Now look at Router to see your ESP32-CAM
+##  Now look at Router to see your ESP32-CAM
 
 This is how it looks on mine
 
 <img src="./doc/Screenshot 2022-04-19 124039.jpg"> 
 
-### Go to a browser on computer or phone and enter the name or ip of ESP32-CAM
+## Go to a browser on computer or phone and enter the name or ip of ESP32-CAM
 
 <img src="./doc/Screenshot 2022-04-19 124045.jpg"> 
 
@@ -139,17 +139,17 @@ This is how it looks on mine
 
 <img src="./doc/Screenshot 2022-04-19 124051.jpg"> 
 
-### If you use Windows Chrome, you might get this ... Switch to Windows Edge
+## If you use Windows Chrome, you might get this ... Switch to Windows Edge
 
 <img src="./doc/Screenshot 2022-04-19 125118.jpg"> 
 
-### You can click the IP to update the stats, and you get his on console 
+## You can click the IP to update the stats, and you get his on console 
 
 The http index line ... use this to force console to update
 
 <img src="./doc/Screenshot 2022-04-19 124647.jpg"> 
 
-### Try the Streaming on browser, and stats on console
+## Try the Streaming on browser, and stats on console
 
 1.  You get cosole messages when streaming begins and ends. 
 2.  The console shows it is recording at 12.5 fps (the camera max), but streaming fluxuates a little from 15 down to about 12.
@@ -158,17 +158,17 @@ The http index line ... use this to force console to update
 
 <img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
 
-### Try the 10 photos at intervals - you can save these with your browser
+## Try the 10 photos at intervals - you can save these with your browser
 
 <img src="./doc/Screenshot 2022-04-19 125104.jpg"> 
 
-### Try the File Manager
+## Try the File Manager
 
 These are your files from session #1 and #2 ... with dates
 
 <img src="./doc/Screenshot 2022-04-19 125031.jpg"> 
 
-### Click the filename to download it to your browser computer
+## Click the filename to download it to your browser computer
 
 Paragraph about download speed.
 The file will land in your default download directory -- here it is one my Windows computer
@@ -177,17 +177,17 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-19 132302.jpg"> 
 
-### Click the "E" beseide config.txt to edit the config file
+## Click the "E" beseide config.txt to edit the config file
 
 <img src="./doc/Screenshot 2022-04-19 125111.jpg"> 
 
 <img src="./doc/Screenshot 2022-04-19 125049_LI.jpg"> 
 
-### Start vlc on computer, Open a Network Stream
+## Start vlc on computer, Open a Network Stream
 
 <img src="./doc/Screenshot 2022-04-19 125901.jpg"> 
 
-### Enter the url from the Stream link on website
+## Enter the url from the Stream link on website
 
 <img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
@@ -195,29 +195,29 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
-### Choose a computer file name to record the video stream
+## Choose a computer file name to record the video stream
 
 <img src="./doc/Screenshot 2022-04-19 125849.jpg"> 
 
-### and it starts recording
+## and it starts recording
 
 The recording will be a mjpeg file, which has no sense of time, it just plays the stream as fast as it can.
 
 <img src="./doc/Screenshot 2022-04-19 124652.jpg"> 
 
-### hit the square stop button to stop streaming, and stream record
+## hit the square stop button to stop streaming, and stream record
 
 <img src="./doc/Screenshot 2022-04-19 125831.jpg"> 
 
-### When video is done, you see some stats on the console, and in the log file
+## When video is done, you see some stats on the console, and in the log file
 
 <img src="./doc/Screenshot 2022-04-19 130740.jpg"> 
 
-### Now unplug everything, and put sd card in computer, and here are the movies
+## Now unplug everything, and put sd card in computer, and here are the movies
 
 <img src="./doc/Screenshot 2022-04-19 131032.jpg"> 
 
-### And movie that does not end gracefully will not have an index, so vlc will show this, and it will not play at correct speed or length
+## And movie that does not end gracefully will not have an index, so vlc will show this, and it will not play at correct speed or length
 
 <img src="./doc/Screenshot 2022-04-19 132316.jpg"> 
 
@@ -225,16 +225,16 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 
 <img src="./doc/Screenshot 2022-04-19 132247.jpg"> 
 
-### The sd recorded movie, looks like the stream and computer recorded movie
+## The sd recorded movie, looks like the stream and computer recorded movie
 
 <img src="./doc/Screenshot 2022-04-19 131254.jpg"> 
 
 <img src="./doc/Screenshot 2022-04-19 131210.jpg"> 
 
-### Questions, Comments, Like and Subscribe ...
+## Questions, Comments, Like and Subscribe ...
 
-### Are you still reading this?
+## Are you still reading this?
 
-https://ko-fi.com/jameszah
+<https://ko-fi.com/jameszah>
 
 
