@@ -16,6 +16,7 @@ RX   - TX
 When programming, jumper gpio0 to gnd (next pin)
 
 Photo of wiring
+
 ## Click the Connect button
  
 <img src="./doc/Screenshot 2022-04-19 121621.jpg">
@@ -141,6 +142,8 @@ This is how it looks on mine
 
 ## If you use Windows Chrome, you might get this ... Switch to Windows Edge
 
+There is a bugfix to allocate more cookie buffers in ESP32 core
+
 <img src="./doc/Screenshot 2022-04-19 125118.jpg"> 
 
 ## You can click the IP to update the stats, and you get his on console 
@@ -170,7 +173,11 @@ These are your files from session #1 and #2 ... with dates
 
 ## Click the filename to download it to your browser computer
 
-Paragraph about download speed.
+These mjpeg avi's are big files - not enough ram or cpu time in a ESP32 to compact them.  
+The ESP32 wifi is about 3.5 Mega-bits-per-second, and in a house with your router 50 feet away, you can get 3 Mbps when you are not recording, or about 2 Mbps when recording, with the on-module antenna.  Moving outside you will get slower speeds, and may need an external antenna.
+
+But when you pull out the sd card, and plug it into your computer, you can copy the movies at about 20 Mega-bytes-per-second, or about 80 times faster than the transfer or wifi option.  Plus if you are recording, and doing a full speed file transfer, you will really burn out your battery, and heat up the ESP32, so ... it is of modest benefit, unless your camera is remote.  The wifi is very good for configuration, looking through the viewfinder, and occasionally grabbing a short avi.  I'm working on a version to hop around inside a movie to see if there is anything worth copying to the computer, without downloading the entire thing.
+ 
 The file will land in your default download directory -- here it is one my Windows computer
 
 <img src="./doc/Screenshot 2022-04-19 125037.jpg"> 
@@ -178,6 +185,8 @@ The file will land in your default download directory -- here it is one my Windo
 <img src="./doc/Screenshot 2022-04-19 132302.jpg"> 
 
 ## Click the "E" beseide config.txt to edit the config file
+
+After you save the new config, you have to click "End Movie and Reboot" for it to take effect
 
 <img src="./doc/Screenshot 2022-04-19 125111.jpg"> 
 
@@ -195,7 +204,7 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-20 102421.jpg"> 
 
-## Choose a computer file name to record the video stream
+## Choose a computer file name to record the video stream, hit Save
 
 <img src="./doc/Screenshot 2022-04-19 125849.jpg"> 
 
@@ -232,7 +241,24 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 
 ## Questions, Comments, Like and Subscribe ...
 
+## Other Programs in the ESP32-CAM-Video Recorder Family
+
+https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior   
+- the source code for this program
+
+https://github.com/jameszah/ESP32-CAM-Video-Recorder    
+- older version, that will send photos and links to telegram.org at the end of every movie, and let you download that movie.
+- has some PIR controls as well
+
+https://github.com/jameszah/ESP32-CAM-Video-Telegram
+- this will record photos or realtime/timelapse movies in memory and send the photo or movie to a telegram.org bot.
+- you can use your telegram app on phone or copmputer to request a photo/movie, or have it triggered by a pir or radar module.
+- No sd card required for this app, all the output is sent to telegram
+
+
 ## Are you still reading this?
+
+I need a coffee!  Documentation is exhausting.
 
 <https://ko-fi.com/jameszah>
 
