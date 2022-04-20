@@ -187,11 +187,7 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-19 125901.jpg"> 
 
-## Enter the url from the Stream link on website
-
-<img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
-
-### and select Convert
+## Enter the url from the Stream link on website and select Convert
 
 <img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
@@ -207,7 +203,6 @@ The recording will be a mjpeg file, which has no sense of time, it just plays th
 
 ## hit the square stop button to stop streaming, and stream record
 
-<img src="./doc/Screenshot 2022-04-19 125831.jpg"> 
 
 ## When the sd video recording is done, you see some stats on the console, and in the log file
 
