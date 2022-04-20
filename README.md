@@ -6,13 +6,16 @@ If you are reading this on github.com, click here to read it on github.io -- the
 
 <a href="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior">https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior</a>
 
+Here are some demo videos uploaded to Youtube - timelapse and realtime - see the "junior" link above for details:
+
+[![Click to see on Youtube](http://img.youtube.com/vi/tzMFukXsX6o/hqdefault.jpg)](http://www.youtube.com/watch?v=tzMFukXsX6o "Clouds from Youtube")
+
+[![Click to see on Youtube](http://img.youtube.com/vi/SNbKu3UN2P8/hqdefault.jpg)](http://www.youtube.com/watch?v=SNbKu3UN2P8 "Birds from Youtube")
+
 ### Lengthy Install and Operations Instructions here
 
 <a href="https://jameszah.github.io/ESP32-CAM-VideoCam/instruct">https://jameszah.github.io/ESP32-CAM-VideoCam/instruct</a>
 
-
-
-New version installed Jan 12, 2022 - see "junior" above for details.  It uses a different config.txt file than the previous version, but it will create a new config.txt file, and you can edit in your ssid and password, and then make extra edit through the esp32 file manager while it is running ... or just copy and edit the config.txt below and put it on your sd card.
     
 You also have to put your ESP32-CAM into programming mode (ground GPIO0 then power it on), and you must NOT have the Arduino Serial Monitor attached to the COM port.
     
