@@ -12,7 +12,7 @@ Gnd  - Gnd
 TX   - RX   
 RX   - TX   
 +5   - +5   
-
+   
 When programming, jumper gpio0 to gnd (next pin)
 
 Photo of wiring
