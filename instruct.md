@@ -9,13 +9,40 @@
 
 FTDI - ESP32   
 Gnd  - Gnd   
-TX   - RX   
-RX   - TX   
+TX   - UOR   
+RX   - UOT   
 +5   - +5   
    
 When programming, jumper gpio0 to gnd (next pin)
 
-Photo of wiring
+Nice grapics from Dronebot 
+https://dronebotworkshop.com/esp32-cam-microsd/
+
+<img src="https://i0.wp.com/dronebotworkshop.com/wp-content/uploads/2022/04/esp32-cam-ftdi.jpg">
+
+I have slightly different FTDI module - "shorter wires = fewer brownouts"    
+If you use a breadboard or long USB cable you will get brownouts on the ESP32.  
+Another solution is thick wires with nice soldering, and a 100 microFarad capactor between +5 and GND on ESP32  
+
+Make sure FTDI has jumper set to 3.3v data for the ESP32 pins
+
+GND - RX - TX in sequence
+
+<img src="./doc/ftdi.jpg">
+
+GND - UOT - UOR in sequnce, giving us the RX-UOT flip, and jumper on GND-Gpio0
+
+<img src="./doc/esp32.jpg">
+
+Plug in +5 to start in program mode
+
+<img src="./doc/program.jpg">
+
+Unplug +5, remove GND-Gpio0 jumper, put power back, and we are running!
+
+<img src="./doc/run.jpg">
+
+
 
 ## Click the Connect button
  
@@ -78,7 +105,7 @@ There are three on them here due to awkward plugging
 8.  Delete the oldest files if your sd is 80% full
 9.  Start the camera and sd taks
 10.  Start recording the movie
-11.  It is desklens1.001.txt or camera name, session #1, movie #1
+11.  It is desklens1.001.avi or camera name, session #1, movie #1
 
 <img src="./doc/Screenshot 2022-04-19 123313.jpg"> 
 
