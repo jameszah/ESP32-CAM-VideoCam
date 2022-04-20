@@ -1,5 +1,13 @@
 ##  Lengthy Instructions to Install and Operate ESP32-CAM-VideoCam
 
+This project is a compiled version of this sorce code
+https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior
+
+It can be run with or without wifi, with just a +5 and GND powering the ESP32.
+
+If you want to get fancy, you can also add 2 switches to stop/start the recording, and to keep 2 sets of recording parameters.
+
+So, here are the lenthy instuctions:
 
 ## Goto the github.io website ... not github.com
 
@@ -38,10 +46,11 @@ Plug in +5 to start in program mode
 
 <img src="./doc/program.jpg">
 
-Unplug +5, remove GND-Gpio0 jumper, put power back, and we are running!
+Unplug +5, remove GND-Gpio0 jumper, put power back, and we are filming.
+(Several steps below of programming before you do this.)
+
 
 <img src="./doc/run.jpg">
-
 
 
 ## Click the Connect button
@@ -272,6 +281,10 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 
 https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior   
 - the source code for this program
+
+Here is the fancy version of the hardware
+
+<img src="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/blob/master/v09_schematic.jpg">
 
 https://github.com/jameszah/ESP32-CAM-Video-Recorder    
 - older version, that will send photos and links to telegram.org at the end of every movie, and let you download that movie.
