@@ -191,11 +191,15 @@ The file will land in your default download directory -- here it is one my Windo
 
 <img src="./doc/Screenshot 2022-04-19 125855.jpg"> 
 
+## Select Dump Raw Output, Browse to a FileName
+
+<img src="./doc/Screenshot 2022-04-20 102421.jpg"> 
+
 ## Choose a computer file name to record the video stream
 
 <img src="./doc/Screenshot 2022-04-19 125849.jpg"> 
 
-## and it starts recording
+## and hit Start
 
 The recording will be a mjpeg file, which has no sense of time, it just plays the stream as fast as it can.
 
@@ -212,7 +216,7 @@ The recording will be a mjpeg file, which has no sense of time, it just plays th
 
 <img src="./doc/Screenshot 2022-04-19 131032.jpg"> 
 
-## And movie that does not end gracefully will not have an index, so vlc will show this, and it will not play at correct speed or length
+## Any movie that does not end gracefully will not have an index, so vlc will show this, and it will not play at correct speed or length
 
 <img src="./doc/Screenshot 2022-04-19 132316.jpg"> 
 
