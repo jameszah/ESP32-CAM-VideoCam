@@ -1,5 +1,7 @@
+##  Lengthy Instructions to Install and Operate ESP32-CAM-VideoCam
 
-### Goto the github.io websire ... not github.com
+
+### Goto the github.io website ... not github.com
 
 <img src="./doc/Screenshot 2022-04-19 121554.jpg">
 
