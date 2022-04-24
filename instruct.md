@@ -5,7 +5,7 @@ This project is a compiled version of this sorce code
 
 It can be run with or without wifi, with just a +5 and GND powering the ESP32.
 
-If you want to get fancy, you can also add 2 switches to stop/start the recording, and to turn onn/off wifi.
+If you want to get fancy, you can also add 2 switches to stop/start the recording, and to turn wifi on/off.
 
 So, here are the lenthy instuctions:
 
@@ -282,7 +282,7 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 <https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior>   
 - the source code for this program
 
-Here is the fancy version of the hardware
+Here is the fancy version of the hardware - the format switch below now re-used as wifi on/off.
 
 <img src="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/blob/master/v09_schematic.jpg?raw=true">
 
