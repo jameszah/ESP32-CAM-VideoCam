@@ -5,7 +5,7 @@ This project is a compiled version of this sorce code
 
 It can be run with or without wifi, with just a +5 and GND powering the ESP32.
 
-If you want to get fancy, you can also add 2 switches to stop/start the recording, and to keep 2 sets of recording parameters.
+If you want to get fancy, you can also add 2 switches to stop/start the recording, and to turn onn/off wifi.
 
 So, here are the lenthy instuctions:
 
@@ -284,7 +284,7 @@ Here you are 44 seconds into a 21 second movie, from the unplug 5v incident - th
 
 Here is the fancy version of the hardware
 
-<img src="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/blob/master/v09_schematic.jpg">
+<img src="https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/blob/master/v09_schematic.jpg?raw=true">
 
 <https://github.com/jameszah/ESP32-CAM-Video-Recorder>    
 - older version, that will send photos and links to telegram.org at the end of every movie, and let you download that movie.
