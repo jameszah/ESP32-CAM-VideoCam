@@ -139,6 +139,20 @@ There are three on them here due to awkward plugging
 
 <img src="./doc/Screenshot 2022-04-19 123256.jpg"> 
 
+## Edit in your SSID and Password - Option #2
+
+Another option to SSID and password, is to edit in the word "wifiman" where the ssid should be, then save the file and put it back in the ESP32-CAM.  Then the next time you boot, the ESP32-CAM will start the WiFiManager.
+
+1.  With your phone or computer connect to the WiFi host ESP32-CAM (disconnecting from your home router)
+2.  Click on the ESP32-CAM device - there is no password for this WiFi Host, and it should take you to website 192.168.4.1
+3.  It will show you this screen, where you click on Configure WiFi
+4.  Select your home router for the ESP32-CAM to connect to (your SSID), and enter the password for your router
+5.  And click Save, and your ESP32-CAM will connect to your router, and your phone should re-connect to your router
+6.  From then on, your ESP32-CAM will remeber your router and connect to it, until you edit in a different ssid/password into the config.txt file
+7.  If you leave your house, it will try for 30 seconds to connect to your home router, and then it will start WiFiManager, and give you 60 seconds to set up a new ssid/password.  If at the end of that it cannot connect, it will just start recording with no-wifi.
+
+ <img src="./doc/wifiman1.jpg" width=30% height=30%> <img src="./doc/wifiman2.jpg" width=30% height=30%> <img src="./doc/wifiman3.jpg"  width=30% height=30%> 
+
 ## Now put the sd back in ESP32 and starts Logs and Console, and power up
 
 1.  You will see these 3 screens 
