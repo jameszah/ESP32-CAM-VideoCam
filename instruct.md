@@ -12,7 +12,7 @@ So, here are the lenthy instuctions:
 ## Goto the github.io website ... not github.com
 
 <img src="./doc/Screenshot 2022-04-19 121554.jpg">
-
+   
 ##  Wire up the ESP32-CAM Correctly
 
 FTDI - ESP32   
