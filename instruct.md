@@ -240,7 +240,7 @@ After you save the new config, you have to click "End Movie and Reboot" for it t
 
 <img src="./doc/Screenshot 2022-04-19 125111.jpg"> 
 
-<img src="./doc/Screenshot 2022-04-19 125049.jpg"> 
+<img src="./doc/Screenshot 2022-04-19 125049a.jpg"> 
 
 ## Start vlc on computer, Open a Network Stream
 
