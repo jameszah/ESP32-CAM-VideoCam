@@ -48,5 +48,21 @@ ssid1234  // ssid wifi name
 mrpeanut  // ssid password
 ```
 
+***
+
+New Version 58.9 for    
+1. esp32-arduino 2.0.3   
+2. restore wifi when fails   
+3. esp camera mod for CAMERA_GRAB_LATEST   
+4. mods to allow streaming faster than recording   
+
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"
+></script>
+
+<esp-web-install-button
+  manifest="/v58,9/manifest.json"
+></esp-web-install-button>
 
 
