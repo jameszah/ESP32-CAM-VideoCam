@@ -55,6 +55,7 @@ mrpeanut  // ssid password
 2. restore wifi when fails   
 3. esp camera mod for CAMERA_GRAB_LATEST   
 4. mods to allow streaming faster than recording   
+5. correct 'Header fields are too long for server to interpret' bug
 
 <script
   type="module"
@@ -62,7 +63,7 @@ mrpeanut  // ssid password
 ></script>
 
 <esp-web-install-button
-  manifest="/v58.9/manifest.json"
+  manifest="./v58.9/manifest.json"
 ></esp-web-install-button>
 
 
