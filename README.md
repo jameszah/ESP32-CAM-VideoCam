@@ -50,7 +50,7 @@ mrpeanut  // ssid password
 
 ***
 
-New Version 58.9 for    
+### May 5, 2022 -- New Version 58.9 for    
 1. esp32-arduino 2.0.3   
 2. restore wifi when fails   
 3. esp camera mod for CAMERA_GRAB_LATEST   
@@ -62,7 +62,7 @@ New Version 58.9 for
 ></script>
 
 <esp-web-install-button
-  manifest="/v58,9/manifest.json"
+  manifest="/v58.9/manifest.json"
 ></esp-web-install-button>
 
 
