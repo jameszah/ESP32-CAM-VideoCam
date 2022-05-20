@@ -66,4 +66,21 @@ mrpeanut  // ssid password
   manifest="./v58.9/manifest.json"
 ></esp-web-install-button>
 
+### May 19, 2022 -- New Version 59.5 for    
+1. ap mode for controlling camera with router 
+2. ... and setting ssid for router
+3. ... and setting time when in ap mode
+4. faster more effiecent streaming
+5. more options for multi-photo command
 
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"
+></script>
+
+<esp-web-install-button
+  manifest="./v59.5/manifest.json"
+></esp-web-install-button>
+
+Slightly different config file:
+<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/v59.5/config.txt">config.txt</a>
