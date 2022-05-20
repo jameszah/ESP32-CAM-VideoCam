@@ -50,7 +50,7 @@ mrpeanut  // ssid password
 
 ***
 
-### May 5, 2022 -- New Version 58.9 for    
+### May 5, 2022 -- New Version 58.9   
 1. esp32-arduino 2.0.3   
 2. restore wifi when fails   
 3. esp camera mod for CAMERA_GRAB_LATEST   
@@ -66,10 +66,10 @@ mrpeanut  // ssid password
   manifest="./v58.9/manifest.json"
 ></esp-web-install-button>
 
-### May 19, 2022 -- New Version 59.5 for    
-1. ap mode for controlling camera with router 
-2. ... and setting ssid for router
-3. ... and setting time when in ap mode
+### May 19, 2022 -- New Version 59.5     
+1. ap mode for controlling camera without a router 
+2. ... and setting ssid to connect to router
+3. ... and setting time when in ap mode (without internet time)
 4. faster more effiecent streaming
 5. more options for multi-photo command
 
