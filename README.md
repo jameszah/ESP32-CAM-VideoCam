@@ -50,12 +50,20 @@ mrpeanut  // ssid password
 
 ***
 
-### May 5, 2022 -- New Version 58.9   
+### Jun 15, 2022 -- New Version 60.4   
 1. esp32-arduino 2.0.3   
 2. restore wifi when fails   
 3. esp camera mod for CAMERA_GRAB_LATEST   
 4. mods to allow streaming faster than recording   
 5. correct 'Header fields are too long for server to interpret' bug
+6. ap mode for controlling camera without a router 
+7. ... and setting ssid to connect to router
+8. ... and setting time when in ap mode (without internet time)
+9. faster more effiecent streaming
+10. more options for multi-photo command
+11. Port 80 for text/jpg, Port 81/82 for 2 streaming channels, Port 8080 for File Manager, editing, download
+12. Start wifi in loop to speed things up
+13. Tiday up control webpage
 
 <script
   type="module"
@@ -63,24 +71,10 @@ mrpeanut  // ssid password
 ></script>
 
 <esp-web-install-button
-  manifest="./v58.9/manifest.json"
+  manifest="./v60.4/manifest.json"
 ></esp-web-install-button>
 
-### May 19, 2022 -- New Version 59.5     
-1. ap mode for controlling camera without a router 
-2. ... and setting ssid to connect to router
-3. ... and setting time when in ap mode (without internet time)
-4. faster more effiecent streaming
-5. more options for multi-photo command
-
-<script
-  type="module"
-  src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"
-></script>
-
-<esp-web-install-button
-  manifest="./v59.5/manifest.json"
-></esp-web-install-button>
-
-Slightly different config file:
-<a href="https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/v59.5/config.txt">config.txt</a>
+SourceCode: https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/  
+One-Click Installer: https://jameszah.github.io/ESP32-CAM-VideoCam/  
+James Zahary - May 18, 2022  
+Free coffee https://ko-fi.com/jameszah  
