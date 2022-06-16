@@ -59,11 +59,13 @@ mrpeanut  // ssid password
 6. ap mode for controlling camera without a router 
 7. ... and setting ssid to connect to router
 8. ... and setting time when in ap mode (without internet time)
-9. faster more effiecent streaming
-10. more options for multi-photo command
-11. Port 80 for text/jpg, Port 81/82 for 2 streaming channels, Port 8080 for File Manager, editing, download
-12. Start wifi in loop to speed things up
-13. Tiday up control webpage
+9. ssid name is the camera name from the config.txt and 2 digits of mac address
+10. ap password is hash of mac address, etc and printed out on serial monitor
+11. faster more effiecent streaming
+12. more options for multi-photo command
+13. Port 80 for text/jpg, Port 81/82 for 2 streaming channels, Port 8080 for File Manager, editing, download
+14. Start wifi in loop to speed things up
+15. Tidy up control webpage
 
 <script
   type="module"
