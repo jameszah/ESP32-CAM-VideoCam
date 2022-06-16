@@ -77,4 +77,5 @@ mrpeanut  // ssid password
 SourceCode: https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/  
 One-Click Installer: https://jameszah.github.io/ESP32-CAM-VideoCam/  
 James Zahary - May 18, 2022  
-Free coffee https://ko-fi.com/jameszah  
+Free coffee <a href="https://ko-fi.com/jameszah">https://ko-fi.com/jameszah/</a>
+
