@@ -20,7 +20,7 @@ Good introduction to motioneye with some dramatic bird rescue over here:
 
 ## Setup the ESP32-CAM for your desired SD recording rate, and streaming rate
 
-See the lengthy instructions page <https://github.com/jameszah/ESP32-CAM-VideoCam/edit/main/instruct.md>
+See the lengthy instructions page <https://github.com/jameszah/ESP32-CAM-VideoCam/blob/main/instruct.md>
 
 You can record to the sd at maximun rate if you want to get the good video, but streaming to motioneye will use up available esp32 wifi space and can overwelm a pi with searching for motion in large frames, adding titles, and converting the jpeg stream to mp4 video, so streaming too fast will overwhelm motioneye.
 
@@ -38,7 +38,7 @@ Select the Network Camera option for most cases.
 
 ... and enter the url of the stream.
 
-<img src="./motioneye/2.jpg">
+<img src="./motioneye/3.jpg">
 
 The esp32-cam has no security - use it within your router security, or in ap mode with password security. (see lengthy instructions)
 The esp32-cam has two mjpeg streams on port 81 and 82, and port 80 is free to look at text status or single jpgs from the cam.
@@ -46,8 +46,6 @@ The esp32-cam has two mjpeg streams on port 81 and 82, and port 80 is free to lo
 http://legocam:81/stream is the 81 stream.  "legocam" is the name of the camera for filenames and the dns name.  Use "http://legocam.local" in chrome browser to access the control site.
 
 After you enter the correct url, it will fill in the camera type correctly as mjpeg cam.
-
-<img src="./motioneye/3.jpg">
 
 <img src="./motioneye/4.jpg">
 
