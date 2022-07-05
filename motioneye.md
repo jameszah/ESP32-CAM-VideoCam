@@ -16,6 +16,7 @@ motioneye runs on raspberry pi's or similar, and is used to collect video stream
 
 Good introduction to motioneye with some dramatic bird rescue over here:
 <https://www.youtube.com/watch?v=ybQzlvukSBo>
+<https://www.youtube.com/c/leepspvideo>
 
 ## Setup the ESP32-CAM for your desired SD recording rate, and streaming rate
 
