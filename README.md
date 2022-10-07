@@ -93,7 +93,7 @@ mrpeanut  // ssid password
 ></script>
 
 <esp-web-install-button
-  manifest="./v60_install/manifest.json"
+  manifest="./v60_install/manifest_merge.json"
 ></esp-web-install-button>
 
 SourceCode: https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/  
