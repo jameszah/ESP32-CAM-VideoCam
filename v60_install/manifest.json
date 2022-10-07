@@ -1,0 +1,19 @@
+
+{
+  "name": "ESP32-CAM-Video-Recorder-junior-60x.4.7.ino",
+  "version": "60.4.7",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "ESP32-CAM-Video-Recorder-junior-60x.4.7.ino.bootloader.bin", "offset": 4096 },
+        { "path": "ESP32-CAM-Video-Recorder-junior-60x.4.7.ino.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "ESP32-CAM-Video-Recorder-junior-60x.4.7.ino.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
+
+
