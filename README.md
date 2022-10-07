@@ -81,8 +81,21 @@ mrpeanut  // ssid password
   manifest="./v60.4/manifest.json"
 ></esp-web-install-button>
 
+### Oct 7, 2022 -- New Version 60.4.7
+1. esp32-arduino 2.0.4
+2.    
+
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"
+></script>
+
+<esp-web-install-button
+  manifest="./v60_install/manifest.json"
+></esp-web-install-button>
+
 SourceCode: https://github.com/jameszah/ESP32-CAM-Video-Recorder-junior/  
 One-Click Installer: https://jameszah.github.io/ESP32-CAM-VideoCam/  
-James Zahary - May 18, 2022  
+James Zahary - Oct 7, 2022  
 Free coffee <a href="https://ko-fi.com/jameszah">https://ko-fi.com/jameszah/</a>
 
