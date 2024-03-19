@@ -30,10 +30,7 @@ After you have programmed the ESP32-CAM, you should get the config.txt file from
 <br>
 Click Connect to connect to ESP32-CAM and view console or send the firmware -- make sure Arduino serial monitor is closed!    
 <br>
-<script  type="module" src="https://unpkg.com/esp-web-tools@7.0.0/dist/web/install-button.js?module"></script>
-<esp-web-install-button manifest="manifest.json"></esp-web-install-button>
 
-<br>  
 
 Here is a link to the **config.txt** file you should save onto your sd card with your ssid and password.  The link below has comments to describe the fields in greater detail, or cut-and-paste this little window for the basics.
 <br>   
