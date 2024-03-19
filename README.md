@@ -72,14 +72,9 @@ mrpeanut  // ssid password
 14. Start wifi in loop to speed things up
 15. Tidy up control webpage
 
-<script
-  type="module"
-  src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"
-></script>
 
-<esp-web-install-button
-  manifest="./v60.4/manifest.json"
-></esp-web-install-button>
+
+
 
 ***
 
