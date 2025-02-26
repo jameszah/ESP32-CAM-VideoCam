@@ -57,7 +57,8 @@ Click Connect to connect to ESP32-CAM and view console or send the firmware -- m
   manifest="./v62_install/merge.json"
 ></esp-web-install-button>
 
-    <hr width="100%;" color="red" size="5">
+---
+---
 
 OLD STUFF BELOW
 
